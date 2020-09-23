@@ -1,0 +1,195 @@
+
+@font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 400; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype'); } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 700; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype') } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 300; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype'); } .nanumbarungothic * { font-family: 'NanumBarunGothic', sans-serif; }
+*{margin:0;padding:0;}
+
+/* #mainimg_head{
+    background-color: lavender;
+} */
+body{
+    font-family: 'NanumBarunGothic'
+}
+#topBtn{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.cell_padding{
+    padding: 8px;
+    border-right: lightslategray 1px solid;
+    border-bottom: lightslategray 1px solid;
+    border-radius: 10%;
+
+}
+.cell_padding2{
+    padding: 8px;
+}
+
+.cell_margin{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 0.8em;
+    width: 170px;
+}
+.cell_margin2{
+    margin-left: 8px;
+    /* margin-top: 5px; */
+    font-size: 0.8em;
+    width: 80px;
+}   
+#search_text{
+    width: 500px;
+    height: 30px;
+}     
+#search_btn{
+    width: 50px;
+    height: 30px;
+    background-color: lightslategray;
+    color: white;
+    border-radius: 15%;
+    
+}
+
+ul,li{list-style:none;}
+.slide{width:1200px; height:600x; overflow:hidden; 
+    margin-left: auto; margin-right: auto; margin-top: 15px;
+}
+.slide ul{width:calc(100% *4); display:flex; animation:slide 8s infinite;
+    
+}
+
+.slide li{width:calc(100%/4); height:300px;}
+.slide li:nth-child(1){}
+.slide li:nth-child(2){}
+.slide li:nth-child(3){}
+.slide li:nth-child(4){}
+
+@keyframes slide{
+    0% {margin-left:0%;}
+    10% {margin-left:0%;}
+    25% {margin-left:-100%}
+    35% {margin-left:-100%}
+    50% {margin-left:-200%}
+    60% {margin-left:-200%}
+    75% {margin-left:-300%}
+    85% {margin-left:-300%}
+    100% {margin-left:0;}
+}
+#body{
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+}
+#menu_left{
+    border: 1px solid lightslategray;
+    display: inline-block;
+    margin-left: 5%;
+    width: 230px;
+    float: left;
+    /* position: fixed; */
+}
+#main_left_left{
+    display: inline-block;
+    width: 100px;
+}
+    
+#main_body{
+    width: 1500px;
+    height: 400px;
+}
+#bestseller{
+    width: 400px;
+    margin-top: 20px;
+    color: midnightblue;
+    padding-bottom: 10px;
+}
+#menu_center{
+    display: inline-block;
+    width: 1100px;
+    height: 350px;
+    /* position: absolute; */
+    margin-left: -7%;
+}
+
+#best_main{
+    text-align: center;
+}
+#best_img{
+    width: 120px;
+    height: auto;
+}
+#best_num{
+    font-size: 1.2em;
+    width: 35;
+}
+#best_name{
+    width: 400px;
+    border-bottom: lightslategray 1px solid;
+}
+#new_book{
+    margin-top: 10px;
+    width: 400px;
+    color: midnightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#main_body2{
+    width: 1500px;
+    height: 400px;
+}
+#slide_banner{
+    /* margin-left: 2%; */
+    width: 1100px;
+    display: inline-block;
+    margin-left: -5%;
+    /*margin-right: auto; */
+}
+/* #new_book_slide{
+    width: 150px;
+} */
+.swiper-container{
+    margin-top: 8px;
+    width: 1100px;
+    display: inline-block;
+    background-color: lavenderblush;
+    /* opacity: 0.5; */     /*투명도*/
+}
+.swiper-slide{
+    display: inline-block;  
+    width: 100%;
+    text-align: center;
+    /* display: block; */
+}
+.swiper-slide img{
+    position: relative;  /*relative설정 안하면 left33% 안돼*/
+    /* left: 35%; */
+    width: 60%;
+    padding-top: 20px;
+}
+.swiper-button-prev{
+    color: salmon;
+}
+.swiper-button-next{
+    color: salmon;
+}
+#new_book_slide_name{
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;    /*글씨 짤리면 ... : w랑h고정 + overflow는hidden + dispaly는 block또는 inline block + white-space: nowrap해야 적용됨*/
+    width: 150px;
+    height: 20px;
+    white-space: nowrap;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}

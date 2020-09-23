@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+
+    <style>
+        /* #d1{
+            margin-left: auto;
+            margin-right: auto;
+        } */
+        #td1{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+        }
+        #td2{
+            height: 90px;
+            font-size: 1.3em;
+            border-bottom:lightslategray 1px solid;
+            font-weight: bold;
+            color: darkslategray;
+        }
+        table{
+            margin-top: 15px;
+        }
+        span{
+            color: crimson;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!--헤더-->
+    <div id=head1>
+        <table width="1300" border="0" align="center" style="margin-left: auto; margin-right: auto; margin-top: 1%;">
+            <tr>
+                <td width="280"><a href="aladin.html">
+                    <img src="image/aladin_logo.gif" width="250" height="120">
+                </a>
+                </td>
+                <td align="center">
+                    <input type="search" id="search_text">
+                    <input type="button" id="search_btn" value="검색">
+                </td>
+                <td>
+                    <table align="center">
+                        <tr>
+                            <td class="cell_padding"><a href="javascript:void" onclick="winopen('login.html','login','700','500','200','200')">로그인</a></td>
+                            <td class="cell_padding"><a href="https://www.aladin.co.kr/account/wjoin.aspx?returnurl=&returnType=" target="_blank">회원가입</a></td>
+                            <td class="cell_padding">고객센터</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--상단메뉴-->
+    <div id=head2>
+        <table width="1200" align="center" style="margin-left: auto; margin-right: auto; border-bottom: 1px solid lightslategray; padding-bottom: 5px;">
+            <tr>
+                <td width="130" style="border-right: lightslategray 1px solid; text-align: center;">분야보기</td>
+                <td width="100" style="padding-left: 20px;">추천마법사</td>
+                <td width="100"><a href="bestseller.html">베스트셀러</a></td>
+                <td width="100"><a href="new_book.html">새로나온책</a></td>
+                <td><a href="event.html">이벤트</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--왼쪽메뉴-->
+    <div id="menu_left" style="margin-top: 20px;">
+        <ul class="cell_margin">
+            <img src="image/menu_left1.gif" width="170px">
+            <li class="cell_padding2">소설/시/희곡</li>
+            <li class="cell_padding2">에세이</li>
+            <li class="cell_padding2">참고서</li>
+            <li class="cell_padding2">경제경영</li>
+            <li class="cell_padding2">인문학</li>
+            <li class="cell_padding2">예술/대중문화</li>
+            <li class="cell_padding2">가정/요리/뷰티</li>
+        </ul>
+        <ul class="cell_margin" >
+            <img src="image/menu_left2.gif"  width="170px">
+            <li class="cell_padding2">소설/시/희곡</li>
+            <li class="cell_padding2">어린이</li>
+            <li class="cell_padding2">ELT/어학/사전</li>
+            <li class="cell_padding2">일본도서</li>
+            <li class="cell_padding2">중국도서</li>
+        </ul>
+        <ul class="cell_margin2" id="main_left_left" style="border-right: lightslategray 1px solid;">
+            <img src="image/menu_left3.gif">
+            <li class="cell_padding2">가요</li>
+            <li class="cell_padding2">팝</li>
+            <li class="cell_padding2">클래식</li>
+            <li class="cell_padding2">재즈</li>
+            <li class="cell_padding2">OST</li>
+        </ul>
+        <ul class="cell_margin2" id="main_left_left" >
+            <img src="image/menu_left4.gif">
+            <li class="cell_padding2">드라마/코미디</li>
+            <li class="cell_padding2">TV시리즈</li>
+            <li class="cell_padding2">액션/어드벤처</li>
+            <li class="cell_padding2">애니메이션</li>
+        </ul>
+    </div>
+    
+
+    <!--새로나온 책-->
+    <div id='d1' align="center">
+        <div id="new_book"><h2>새로나온책</h2></div>
+        <table width="800px" align="center" style="margin-right: 150px;">
+            <tr >
+                <td id='td1'rowspan="3" ><img src="image/new1.gif"></td>   
+                <td id='td2' >동물들의 기나긴 여행</td>
+            </tr>
+            <tr> 
+                <td >마이크 언윈 (지은이), 제니 데스몬드 (그림), 안성호 (옮긴이) | 보림 | 2020년 5월</td>  
+            </tr>
+            <tr> 
+                <td>21,000원 → <span>18,900원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new2.gif"></td>
+                <td id='td2'>밤의 얼굴들</td>
+            </tr>
+            <tr> 
+                <td>황모과 (지은이) | 허블 | 2020년 6월</td>  
+            </tr>
+            <tr> 
+                <td>13,000원 → <span>11,700원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new3.gif"></td>
+                <td id='td2'>절멸의 인류사</td>
+            </tr>
+            <tr> 
+                <td>사라시나 이사오 (지은이), 이경덕 (옮긴이) | 부키 | 2020년 6월</td>  
+            </tr>
+            <tr> 
+                <td>14,800원 → <span>13,320원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new4.gif"></td>
+                <td id='td2'>초판본 작은 아씨들 3 : 작은 신사들 (1871년 오리지널 초판본 표지디자인 초호화 벨벳 에디션) </td>
+            </tr>
+            <tr> 
+                <td>루이자 메이 올콧 (지은이), 공민희 (옮긴이) | 더스토리 | 2020년 6월</td>  
+            </tr>
+            <tr> 
+                <td>16,800원 → <span>15,120원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new5.gif"></td>
+                <td id='td2'>초판본 작은 아씨들 3 : 작은 신사들 (1896년 오리지널 초판본 표지디자인)</td>
+            </tr>
+            <tr> 
+                <td>루이자 메이 올콧 (지은이), 공민희 (옮긴이) | 더스토리 | 2020년 6월></td>  
+            </tr>
+            <tr> 
+                <td>14,800원 → <span>13,320원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new6.gif"></td>
+                <td id='td2'>한 숨, 쉼을 가져요</td>
+            </tr>
+            <tr> 
+                <td>임선영 (지은이) | 북노마드 | 2020년 6월</td>  
+            </tr>
+            <tr> 
+                <td>12,000원 → <span>10,800원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new7.gif"></td>
+                <td id='td2'>릿터 Littor 2020.6.7</td>
+            </tr>
+            <tr> 
+                <td>릿터 편집부 (지은이) | 민음사 | 2020년 6월</td>  
+            </tr>
+            <tr> 
+                <td>10,000원 → <span>9,000원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new8.gif"></td>
+                <td id='td2'>윤리적 잡년</td>
+            </tr>
+            <tr> 
+                <td>재닛 하디, 도씨 이스턴 (지은이), 금경숙, 곽규환 (옮긴이) | 해피북미디어 | 2020년 5월</td>  
+            </tr>
+            <tr> 
+                <td>20,000원 → <span>18,000원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new9.gif"></td>
+                <td id='td2'>사라지는 것은 아쉬움을 남긴다</td>
+            </tr>            
+            <tr> 
+                <td>김두얼 (지은이) | 생각의힘 | 2020년 6월
+                </td>  
+            </tr>
+            <tr> 
+                <td>17,000원 → <span>15,300원</span></td>  
+            </tr>
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new10.gif"></td>
+                <td id='td2'>까면서 보는 해부학 만화</td>
+            </tr>                
+            <tr> 
+                <td>압듈라 (지은이) | 한빛비즈 | 2020년 6월
+                </td>  
+            </tr>
+            <tr> 
+                <td>18,500원 → <span>16,650원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/new11.gif"></td>
+                <td id='td2'>끝나지 않은 여름</td>
+            </tr>              <tr> 
+                <td>카타리나 벤스탐 (지은이), 이유진 (옮긴이) | 숨쉬는책공장 | 2020년 5월
+                </td>  
+            </tr>
+            <tr> 
+                <td>15,500원 → <span>13,950원</span></td>  
+
+
+
+        </table>
+
+    </div>
+</body>
+</html>

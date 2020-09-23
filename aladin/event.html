@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* #d1{
+            margin-left: auto;
+            margin-right: auto;
+        } */
+        #img{
+            width: 255px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: lightgray 1px solid;
+        }
+        table{
+            margin-top: 15px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!--헤더-->
+    <div id=head1>
+        <table width="1300" border="0" align="center" style="margin-left: auto; margin-right: auto; margin-top: 1%;">
+            <tr>
+                <td width="280"><a href="aladin.html">
+                    <img src="image/aladin_logo.gif" width="250" height="120">
+                </a>
+                </td>
+                <td align="center">
+                    <input type="search" id="search_text">
+                    <input type="button" id="search_btn" value="검색">
+                </td>
+                <td>
+                    <table align="center">
+                        <tr>
+                            <td class="cell_padding"><a href="javascript:void" onclick="winopen('login.html','login','700','500','200','200')">로그인</a></td>
+                            <td class="cell_padding"><a href="https://www.aladin.co.kr/account/wjoin.aspx?returnurl=&returnType=" target="_blank">회원가입</a></td>
+                            <td class="cell_padding">고객센터</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--상단메뉴-->
+    <div id=head2>
+        <table width="1200" align="center" style="margin-left: auto; margin-right: auto; border-bottom: 1px solid lightslategray; padding-bottom: 5px;">
+            <tr>
+                <td width="130" style="border-right: lightslategray 1px solid; text-align: center;">분야보기</td>
+                <td width="100" style="padding-left: 20px;">추천마법사</td>
+                <td width="100"><a href="bestseller.html">베스트셀러</a></td>
+                <td width="100"><a href="new_book.html">새로나온책</a></td>
+                <td><a href="event.html">이벤트</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--왼쪽메뉴-->
+    <div id="menu_left" style="margin-top: 20px;">
+        <ul class="cell_margin">
+            <img src="image/menu_left1.gif" width="170px">
+            <li class="cell_padding2">소설/시/희곡</li>
+            <li class="cell_padding2">에세이</li>
+            <li class="cell_padding2">참고서</li>
+            <li class="cell_padding2">경제경영</li>
+            <li class="cell_padding2">인문학</li>
+            <li class="cell_padding2">예술/대중문화</li>
+            <li class="cell_padding2">가정/요리/뷰티</li>
+        </ul>
+        <ul class="cell_margin" >
+            <img src="image/menu_left2.gif"  width="170px">
+            <li class="cell_padding2">소설/시/희곡</li>
+            <li class="cell_padding2">어린이</li>
+            <li class="cell_padding2">ELT/어학/사전</li>
+            <li class="cell_padding2">일본도서</li>
+            <li class="cell_padding2">중국도서</li>
+        </ul>
+        <ul class="cell_margin2" id="main_left_left" style="border-right: lightslategray 1px solid;">
+            <img src="image/menu_left3.gif">
+            <li class="cell_padding2">가요</li>
+            <li class="cell_padding2">팝</li>
+            <li class="cell_padding2">클래식</li>
+            <li class="cell_padding2">재즈</li>
+            <li class="cell_padding2">OST</li>
+        </ul>
+        <ul class="cell_margin2" id="main_left_left" >
+            <img src="image/menu_left4.gif">
+            <li class="cell_padding2">드라마/코미디</li>
+            <li class="cell_padding2">TV시리즈</li>
+            <li class="cell_padding2">액션/어드벤처</li>
+            <li class="cell_padding2">애니메이션</li>
+        </ul>
+    </div>
+
+
+    <!--이벤트-->
+    <div id='d1' align="center">
+        <table align="center" style="margin-right: 150px; margin-top: 40px;">
+            <tr>
+                <td id='img'><img src="image/event1.gif" width="250px"></td>
+                <td id='img'><img src="image/event2.gif" width="250px"></td>
+                <td id='img'><img src="image/event3.gif" width="250px"></td>
+            </tr>
+            <tr>
+                <td id='img'>[북펀드] 헨리 페트로스키 <연필> 한정 양장본 <br>
+                    *기간 : 2020년 6월 5일 금요일 ~ 2020년 6월 26일 금요일</td>
+                <td id='img'>도스토옙스키 투명 책받침 2종 세트<br>
+                    *기간 : 2020년 6월 5일 금요일 ~</td>
+                <td id='img'>삐삐 미니보틀+파우치(대상도서 포함 에세이 3만 원 이상)<br>
+                    *기간 : 2020년 6월 5일 금요일 ~</td>
+            </tr>
+            <tr>
+                <td id='img'><img src="image/event4.gif" width="250px"></td>
+                <td id='img'><img src="image/event5.gif" width="250px"></td>
+                <td id='img'><img src="image/event6.gif" width="250px"></td>
+            </tr>
+            <tr>
+                <td id='img'><이파라파냐무냐무> 양치컵<br>
+                    *기간 : 2020년 6월 5일 금요일 ~</td>
+                <td id='img'><이상하고 자유로운 할머니가 되고 싶어> 종이 L홀더&미니 포스터<br>
+                    *기간 : 2020년 6월 4일 목요일 ~</td>
+                <td id='img'><내가 아니라 그가 나의 꽃> 양장노트<br>
+                    *기간 : 2020년 6월 4일 목요일 ~</td>
+            </tr>
+            <tr>
+                <td id='img'><img src="image/event7.gif" width="250px"></td>
+                <td id='img'><img src="image/event8.gif" width="250px"></td>
+                <td id='img'><img src="image/event9.gif" width="250px"></td>
+            </tr>
+            <tr>
+                <td id='img'><식객 허영만의 백반기행> 허영만 친필 사인본<br>
+                    *기간 : 2020년 6월 4일 목요일 ~ 2020년 7월 10일 금요일</td>
+                <td id='img'><간호사를 간호하는 간호사> 구매 시, 캐릭터 동전지갑<br>
+                    *기간 : 2020년 6월 4일 목요일 ~</td>
+                <td id='img'><언니, 나랑 결혼할래요?> 구매 시, 김규진 작가 친필 사인본<br>
+                    *기간 : 2020년 6월 4일 목요일 ~</td>
+            </tr>
+            <tr>
+                <td id='img'><img src="image/event10.gif" width="250px"></td>
+                <td id='img'><img src="image/event11.gif" width="250px"></td>
+                <td id='img'><img src="image/event12.gif" width="250px"></td>
+            </tr>
+            <tr>
+                <td id='img'>[북펀드] SF 영화계 거장과의 인터뷰 <제임스 카메론의 SF 이야기><br>
+                    *기간 : 2020년 6월 3일 수요일 ~ 2020년 7월 1일 수요일</td>
+                <td id='img'>생활만화의 최강자 컴백! <어쿠스틱 라이프 14> + 특별 일러스트 에코백<br>
+                    *기간 : 2020년 6월 3일 수요일 ~</td>
+                <td id='img'><그녀, 클로이> 마그넷 세트(2개)<br>
+                    *기간 : 2020년 6월 3일 수요일 ~
+                    </td>
+            </tr>
+
+        </table>
+    </div>
+
+
+</body>
+</html>

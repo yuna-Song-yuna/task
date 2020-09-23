@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알라딘</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function winopen(url,title,w,h,t,l){
+            window.open(url,title,"width="+w+",height="+h+",top="+t+",left="+l);
+        }
+    </script>
+
+
+</head>
+<body>
+    
+    <!--헤더-->
+    <div id=head1 >
+        <table id="mainimg_head" width="1300" border="0" align="center" style="margin-left: auto; margin-right: auto; margin-top: 1%;">
+            <tr>
+                <td width="280"><a href="aladin.html">
+                    <img src="image/aladin_logo.gif" width="250" height="120">
+                </a>
+                </td>
+                <td align="center">
+                    <input type="search" id="search_text">
+                    <input type="button" id="search_btn" value="검색">
+                </td>
+                <td>
+                    <table align="center">
+                        <tr>
+                            <td class="cell_padding"><a href="javascript:void" onclick="winopen('login.html','login','700','500','200','200')">로그인</a></td>
+                            <td class="cell_padding"><a href="https://www.aladin.co.kr/account/wjoin.aspx?returnurl=&returnType=" target="_blank">회원가입</a></td>
+                            <td class="cell_padding">고객센터</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--상단메뉴-->
+    <div id=head2>
+        <table width="1200" align="center" style="margin-left: auto; margin-right: auto; border-bottom: 1px solid lightslategray; padding-bottom: 5px;">
+            <tr>
+                <td width="130" style="border-right: lightslategray 1px solid; text-align: center;">분야보기</td>
+                <td width="100" style="padding-left: 20px;">추천마법사</td>
+                <td width="100"><a href="bestseller.html">베스트셀러</a></td>
+                <td width="100"><a href="new_book.html">새로나온책</a></td>
+                <td><a href="event.html">이벤트</a></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!--메인 슬라이드-->
+    <div id="main1" style="height:350px">
+        <div class="slide" style="height: 350px;">
+            <ul style="text-align: center;">
+                <li><img src="image/main1.GIF" width="880" height="352" ></li>
+                <li><img src="image/main2.GIF" width="880" height="352"></li>
+                <li><img src="image/main3.GIF" width="880" height="352"></li>
+                <li><img src="image/main4.GIF" width="880" height="352"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--전체메인바디-->
+    <div id="body" align="center">
+         <!--왼쪽메뉴-->
+        <div id="menu_left" style="margin-top: 20px;">
+            <ul class="cell_margin">
+                <img src="image/menu_left1.gif" width="170px">
+                <li class="cell_padding2">소설/시/희곡</li>
+                <li class="cell_padding2">에세이</li>
+                <li class="cell_padding2">참고서</li>
+                <li class="cell_padding2">경제경영</li>
+                <li class="cell_padding2">인문학</li>
+                <li class="cell_padding2">예술/대중문화</li>
+                <li class="cell_padding2">가정/요리/뷰티</li>
+            </ul>
+            <ul class="cell_margin" >
+                <img src="image/menu_left2.gif"  width="170px">
+                <li class="cell_padding2">소설/시/희곡</li>
+                <li class="cell_padding2">어린이</li>
+                <li class="cell_padding2">ELT/어학/사전</li>
+                <li class="cell_padding2">일본도서</li>
+                <li class="cell_padding2">중국도서</li>
+            </ul>
+            <ul class="cell_margin2" id="main_left_left" style="border-right: lightslategray 1px solid;">
+                <img src="image/menu_left3.gif">
+                <li class="cell_padding2">가요</li>
+                <li class="cell_padding2">팝</li>
+                <li class="cell_padding2">클래식</li>
+                <li class="cell_padding2">재즈</li>
+                <li class="cell_padding2">OST</li>
+            </ul>
+            <ul class="cell_margin2" id="main_left_left" >
+                <img src="image/menu_left4.gif">
+                <li class="cell_padding2">드라마/코미디</li>
+                <li class="cell_padding2">TV시리즈</li>
+                <li class="cell_padding2">액션/어드벤처</li>
+                <li class="cell_padding2">애니메이션</li>
+                <li class="cell_padding2">공포/스릴러</li>
+
+            </ul>
+
+        </div>
+    
+
+        <!--메인바디-->
+        <div id='main_body'>
+
+            <div id="bestseller"><h2>♡ ♥ ♡ ♥ 베스트셀러 ♥ ♡ ♥ ♡</h2></div>
+
+            <!--베스트셀러-->
+            <div id="menu_center" align="center">
+                <table width= "auto" height= "auto" >
+                    <tr id="best_main">
+                        <td id="best_img" ><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=241313700&start=wz&ptid=9&utm_source=aladin&utm_medium=wizard&utm_campaign=choice&utm_content=welcome">
+                            <img src="image/best1.gif" width="70"></a></td>
+                        <td id="best_num" >1</td>
+                        <td id="best_name"><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=241313700&start=wz&ptid=9&utm_source=aladin&utm_medium=wizard&utm_campaign=choice&utm_content=welcome">
+                            <h3>시선으로부터</h3><br>
+                            정세랑</a>
+                        </td>
+                        <td id="best_img"><img src="image/best4.gif" width="70"></td>
+                        <td id="best_num">4</td>
+                        <td id="best_name"><h3>기억 1</h3><br>
+                                베르나르 베르베르</td>
+                        <td id="best_img"><img src="image/best7.gif" width="70"></td>
+                        <td id="best_num">7</td>
+                        <td id="best_name"><h3>소년이 온다</h3><br>
+                                한강</td>
+                    </tr>
+                    <tr id="best_main">
+                        <td id="best_img"><img src="image/best2.gif" width="70"></td>
+                        <td id="best_num">2</td>
+                        <td id="best_name"><h3>더 해빙</h3> <br>
+                                이서윤, 홍주연</td>
+                        <td id="best_img"><img src="image/best5.gif" width="70"></td>
+                        <td id="best_num">5</td>
+                        <td id="best_name"><h3>애쓰지 않고 편안하게</h3><br>
+                                김수현</td>
+                        <td id="best_img"><img src="image/best8.gif" width="70"></td>
+                        <td id="best_num">8</td>
+                        <td id="best_name"><h3>코로나 투자 전쟁</h3><br>
+                                정채진, 박석중 외 6명</td>
+                    </tr>
+                    <tr id="best_main">
+                        <td id="best_img"><img src="image/best3.gif" width="70"></td>
+                        <td id="best_num">3</td>
+                        <td id="best_name" style="border-bottom: 0;"><h3>보통의 언어들</h3><br>
+                                김이나</td>
+                        <td id="best_img"><img src="image/best6.gif" width="70"></td>
+                        <td id="best_num">6</td>
+                        <td id="best_name" style="border-bottom: 0;"><h3>기억 2</h3><br>
+                                베르나르 베르베르</td>
+                        <td id="best_img"><img src="image/best9.gif" width="70"></td>
+                        <td id="best_num">9</td>
+                        <td id="best_name" style="border-bottom: 0;"><h3>돈의 속성</h3><br>
+                                김승호</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <!--메인바디2 새로나온책-->
+        <div id="main_body2" align="center">
+            <div id="new_book" ><h2> &nbsp;☆ ★ ☆ ★ 새로나온 책 ★ ☆ ★ ☆</h2></div>
+
+            <div id="slide_banner">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">    
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide" ><img src="image/new1.gif"></ul>
+                            <li id="new_book_slide_name">동물들의 기나긴 여행</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new2.gif"></ul>
+                            <li id="new_book_slide_name">밤의 얼굴들</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new3.gif"></ul>
+                            <li id="new_book_slide_name">절멸의 인류사</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new4.gif"></ul>
+                            <li id="new_book_slide_name">초판본 작은 아씨들 3: 작은 신사들</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new5.gif"></ul>
+                            <li id="new_book_slide_name">초판본 작은 아씨들 3: 작은 신사들</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new6.gif"></ul>
+                            <li id="new_book_slide_name">한 숨, 쉼을 가져요</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new7.gif"></ul>
+                            <li id="new_book_slide_name">릿터 Littor 2020.6.7</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new8.gif"></ul>
+                            <li id="new_book_slide_name">윤리적 잡년</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new9.gif"></ul>
+                                <li id="new_book_slide_name">사라지는 것은 아쉬움을 남긴다</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new10.gif"></ul>
+                                <li id="new_book_slide_name">까면서 보는 해부학 만화</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new11.gif"></ul>
+                                <li id="new_book_slide_name">끝나지 않은 여름</li>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="new_book_slide"><img src="image/new12.gif"></ul>
+                                <li id="new_book_slide_name">비고츠키와 마르크스</li>
+                        </div>
+
+                        
+                    </div>
+                    <div class="swiper-button-prev"></div><!-- 이전 버튼 (왼쪽에 있는 버튼) -->
+                    <div class="swiper-button-next"></div><!-- 다음 버튼 -->
+
+                </div>
+            </div>
+        </div>
+
+        <!--슬라이드배너 스크립트-->
+        <script>
+            new Swiper('.swiper-container', {
+                slidesPerView : 5, // 동시에 보여줄 슬라이드 개수
+                // spaceBetween : 30, // 슬라이드간 간격
+                loopFillGroupWithBlank : true,
+                loop : true, // 무한 반복
+                // pagination : { // 페이징(밑에 동그란 버튼)
+                //      el : '.swiper-pagination',
+                //      clickable : true, // 페이징을 클릭하면 해당 영역으로 이동, 필요시 지정해 줘야 기능 작동
+                // },
+                navigation : { // 네비게이션
+                    nextEl : '.swiper-button-next',
+                    prevEl : '.swiper-button-prev',
+                },                        
+            })
+
+        </script>
+    </div>
+
+    <!--바디 마지막-->
+    <div id="body_last" align="center" style="margin-bottom: 10%; margin-left: 6%;">
+        <div>
+            <h2 style="color: midnightblue; padding-bottom: 15px;">알라딘TV</h2>
+        </div>
+        <table>
+            <tr >
+                <td style="padding-right: 50px;"><iframe width="500" height="370" src="https://www.youtube.com/embed/kB-UnndiQnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                <td><iframe width="500" height="370" src="https://www.youtube.com/embed/d46FGJE8BWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

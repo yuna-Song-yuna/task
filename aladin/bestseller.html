@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestseller</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        /* #d1{
+            margin-left: auto;
+            margin-right: auto;
+        } */
+        #td1{
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+        }
+        #td2{
+            padding-top: 15px;
+            height: 90px;
+            font-size: 1.3em;
+            border-bottom:lightslategray 1px solid;
+            font-weight: bold;
+            color: darkslategray;
+        }
+        table{
+            margin-top: 15px;
+        }
+        span{
+            color: crimson;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <!--헤더-->
+    <div id=head1>
+        <table width="1300" border="0" align="center" style="margin-left: auto; margin-right: auto; margin-top: 1%;">
+            <tr>
+                <td width="280"><a href="aladin.html">
+                    <img src="image/aladin_logo.gif" width="250" height="120">
+                </a>
+                </td>
+                <td align="center">
+                    <input type="search" id="search_text">
+                    <input type="button" id="search_btn" value="검색">
+                </td>
+                <td>
+                    <table align="center">
+                        <tr>
+                            <td class="cell_padding"><a href="javascript:void" onclick="winopen('login.html','login','700','500','200','200')">로그인</a></td>
+                            <td class="cell_padding"><a href="https://www.aladin.co.kr/account/wjoin.aspx?returnurl=&returnType=" target="_blank">회원가입</a></td>
+                            <td class="cell_padding">고객센터</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--상단메뉴-->
+    <div id=head2>
+        <table width="1200" align="center" style="margin-left: auto; margin-right: auto; border-bottom: 1px solid lightslategray; padding-bottom: 5px;">
+            <tr>
+                <td width="130" style="border-right: lightslategray 1px solid; text-align: center;">분야보기</td>
+                <td width="100" style="padding-left: 20px;">추천마법사</td>
+                <td width="100"><a href="bestseller.html">베스트셀러</a></td>
+                <td width="100"><a href="new_book.html">새로나온책</a></td>
+                <td><a href="event.html">이벤트</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--왼쪽메뉴-->
+    <div id="menu_left" style="margin-top: 20px;">
+        <ul class="cell_margin">
+            <img src="image/menu_left1.gif" width="170px">
+            <li class="cell_padding2">소설/시/희곡</li>
+            <li class="cell_padding2">에세이</li>
+            <li class="cell_padding2">참고서</li>
+            <li class="cell_padding2">경제경영</li>
+            <li class="cell_padding2">인문학</li>
+            <li class="cell_padding2">예술/대중문화</li>
+            <li class="cell_padding2">가정/요리/뷰티</li>
+        </ul>
+        <ul class="cell_margin" >
+            <img src="image/menu_left2.gif"  width="170px">
+            <li class="cell_padding2">소설/시/희곡</li>
+            <li class="cell_padding2">어린이</li>
+            <li class="cell_padding2">ELT/어학/사전</li>
+            <li class="cell_padding2">일본도서</li>
+            <li class="cell_padding2">중국도서</li>
+        </ul>
+        <ul class="cell_margin2" id="main_left_left" style="border-right: lightslategray 1px solid;">
+            <img src="image/menu_left3.gif">
+            <li class="cell_padding2">가요</li>
+            <li class="cell_padding2">팝</li>
+            <li class="cell_padding2">클래식</li>
+            <li class="cell_padding2">재즈</li>
+            <li class="cell_padding2">OST</li>
+        </ul>
+        <ul class="cell_margin2" id="main_left_left" >
+            <img src="image/menu_left4.gif">
+            <li class="cell_padding2">드라마/코미디</li>
+            <li class="cell_padding2">TV시리즈</li>
+            <li class="cell_padding2">액션/어드벤처</li>
+            <li class="cell_padding2">애니메이션</li>
+        </ul>
+    </div>
+
+    <!--메인-->
+    <div id='d1' align="center">
+        <div id="bestseller">
+            <h2>베스트셀러</h2>
+        </div>
+        <table width="800px" align="center" style="margin-right: 150px;" >
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best1.gif"></td>   
+                <td id='td2' >시선으로부터,</td>
+            </tr>
+            <tr> 
+                <td >정세랑 (지은이) | 문학동네 | 2020년 6월</td>  
+            </tr>
+            <tr> 
+                <td >14,000원 → <span>12,600원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best2.gif"></td>
+                <td id='td2'>더 해빙</td>
+            </tr>
+            <tr> 
+                <td>이서윤, 홍주연 (지은이) | 수오서재 | 2020년 3월</td>  
+            </tr>
+            <tr> 
+                <td>16,000원 → <span>14,400원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best3.gif"></td>
+                <td id='td2'>보통의 언어들</td>
+            </tr>
+            <tr> 
+                <td>김이나 (지은이) | 위즈덤하우스 | 2020년 5월</td>  
+            </tr>
+            <tr> 
+                <td>14,500원 → <span>13,050원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best4.gif"></td>
+                <td id='td2'>기억 1</td>
+            </tr>
+            <tr> 
+                <td>베르나르 베르베르 (지은이), 전미연 (옮긴이) | 열린책들 | 2020년 5월</td>  
+            </tr>
+            <tr> 
+                <td>14,800원 → <span>13,320원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best5.gif"></td>
+                <td id='td2'>애쓰지 않고 편안하게</td>
+            </tr>
+            <tr> 
+                <td>김수현 (지은이) | 놀(다산북스) | 2020년 5월></td>  
+            </tr>
+            <tr> 
+                <td>15,000원 → <span>13,500원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best6.gif"></td>
+                <td id='td2'>기억2</td>
+            </tr>
+            <tr> 
+                <td>베르나르 베르베르 (지은이), 전미연 (옮긴이) | 열린책들 | 2020년 5월</td>  
+            </tr>
+            <tr> 
+                <td>14,800원 → <span>13,320원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best7.gif"></td>
+                <td id='td2'>소년이 온다</td>
+            </tr>
+            <tr> 
+                <td>한강 (지은이) | 창비 | 2020년 4월</td>  
+            </tr>
+            <tr> 
+                <td>13,000원 → <span>11,700원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best8.gif"></td>
+                <td id='td2'>코로나 투자 전쟁</td>
+            </tr>
+            <tr> 
+                <td>정채진, 박석중, 이광수, 김한진, 김일구, 여의도클라스, 윤지호, 최준영 (지은이) | 페이지2(page2) | 2020년 5월</td>  
+            </tr>
+            <tr> 
+                <td>16,800원 → <span>15,120원</span></td>  
+            </tr>
+
+            <tr>
+                <td id='td1'rowspan="3"><img src="image/best9.gif"></td>
+                <td id='td2'>돈의 속성</td>
+            </tr>            
+            <tr> 
+                <td>김승호 (지은이) | 스노우폭스북스 | 2020년 6월
+                </td>  
+            </tr>
+            <tr> 
+                <td>16,800원 → <span>15,120원</span></td>  
+            </tr>
+
+
+        </table>
+
+    </div>
+</body>
+</html>
